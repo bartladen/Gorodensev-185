@@ -12,14 +12,14 @@ int main(int argc, char** arvg)
     //setlocale(LC_ALL, "Russian");
     //char filename[80];//road.jpg
     //Mat img;
-    //cout << "ââåäèòå èìÿ ôàéëà, â êîòîðûõ õîòèòå âíåñòè èçìåíåíèÿ, è íàæìèòå Enter" << endl;
+    //cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ Ñ„Ð°Ð¹Ð»Ð°, Ð² ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ñ… Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð²Ð½ÐµÑÑ‚Ð¸ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ñ, Ð¸ Ð½Ð°Ð¶Ð¼Ð¸Ñ‚Ðµ Enter" << endl;
     //cin.getline(filename, 80);
-    //cout << "Îòêðûòûé ôàéë";
-    //cout << filename << endl;//C:/Users/Àäìèíèñòðàòîð/Downloads/3448079982.jpg
-    Mat img = imread("C:/Users/Àäìèíèñòðàòîð/Downloads/3448079982.jpg", 1);
-    //char* sourse_window = "Èñõîäíîå èçîáðàæåíèå";//
-    //namedWindow("Èñõîäíîå èçîáðàæåíèå", WINDOW_AUTOSIZE);
-    //imshow("Èñõîäíîå èçîáðàæåíèå", img);
+    //cout << "ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ñ‹Ð¹ Ñ„Ð°Ð¹Ð»";
+    //cout << filename << endl;//C:/Users/ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€/Downloads/3448079982.jpg
+    Mat img = imread("C:/Users/ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€/Downloads/3448079982.jpg", 1);
+    //char* sourse_window = "Ð˜ÑÑ…Ð¾Ð´Ð½Ð¾Ðµ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ";//
+    //namedWindow("Ð˜ÑÑ…Ð¾Ð´Ð½Ð¾Ðµ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ", WINDOW_AUTOSIZE);
+    //imshow("Ð˜ÑÑ…Ð¾Ð´Ð½Ð¾Ðµ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ", img);
     //Mat canny_output;
     imshow("Load", img);
     //Mat src_gray;
@@ -30,8 +30,8 @@ int main(int argc, char** arvg)
     //double hight_trhesh_val = otsu_thresh_val, lower_thresh_val = otsu_thresh_val * 0.5;
     //cout << otsu_thresh_val;
     //Canny(src_gray, canny_output, lower_thresh_val, hight_trhesh_val, 3);
-    //namedWindow("Ñåðîå èçîáðàæåíèå", WINDOW_AUTOSIZE);
-    //imshow("Ñåðîå èçîáðàæåíèå", canny_output);
+    //namedWindow("Ð¡ÐµÑ€Ð¾Ðµ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ", WINDOW_AUTOSIZE);
+    //imshow("Ð¡ÐµÑ€Ð¾Ðµ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ", canny_output);
     //imwrite("canny_output.jpg", canny_output);
 
     waitKey(0);
