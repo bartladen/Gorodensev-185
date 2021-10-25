@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "каль", "каль\каль.csproj", "{6BB0F146-F1B0-4360-9304-11FC68BA169D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BB0F146-F1B0-4360-9304-11FC68BA169D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB0F146-F1B0-4360-9304-11FC68BA169D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB0F146-F1B0-4360-9304-11FC68BA169D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB0F146-F1B0-4360-9304-11FC68BA169D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62A93B81-7046-43AE-A54A-FFA17E6480F6}
+	EndGlobalSection
+EndGlobal
