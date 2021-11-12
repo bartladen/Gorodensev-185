@@ -37,7 +37,7 @@ namespace WpfApp1
                 textBoxLogin.ToolTip = "Это поле введено не корректно";
                 textBoxLogin.Background = Brushes.DarkRed;
 
-            } else if (pass.Length < 5)
+            } else if (pass.Length < 5 || pass.IsDigit()) 
             {
                 passBox.ToolTip = "Это поле введено не коректно";
                 passBox.Background = Brushes.DarkRed;
