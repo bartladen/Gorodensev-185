@@ -1,4 +1,11 @@
 # 03.09.21-185 
+git
+git clone https://github.com/bartladen/Gorodensev-185.git
+cd Gorodensev-185/
+git add .
+git commit -m "."
+git push https://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@github.com/bartladen/Gorodensev-185.git
+
 1 скачали OpenCV по ссылке https://opencv.org/releases/ и выбрать версию для windows
 2 Создать пустой проект С++
 3 Кликакем по названию проекта и кликаем на "Добавить"->Создать->Файл С++(.cpp)
